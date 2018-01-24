@@ -83,7 +83,7 @@ function gameOver(gameWon){
 }
 function DisplayWinner(player){
     if(player!="O"&&player!="X"){
-        document.querySelector(".header").innerHTML=`<span class="won">Tie Game</span>`
+        document.querySelector(".header").innerHTML=`<span class="tie">Tie Game</span>`
     }else{
         document.querySelector(".header").innerHTML =`<span id="${player}">${player}</span><span class="won">won</span>`
     }
